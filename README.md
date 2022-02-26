@@ -27,7 +27,7 @@ make -j8
 cd ..
 python setup.py install
 ```
-Tested under Ubuntu 16.04, Python 3.6+.
+Tested under Ubuntu 16.04, 18.04, Python 3.6+ (with conda).
 
 
 ## Get Started

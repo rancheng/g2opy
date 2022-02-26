@@ -22,7 +22,7 @@ git clone https://github.com/uoip/g2opy.git
 cd g2opy
 mkdir build
 cd build
-cmake ..
+cmake -DPYTHON_EXECUTABLE:FILEPATH=`which python` ..
 make -j8
 cd ..
 python setup.py install

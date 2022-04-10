@@ -32,6 +32,7 @@ setup(
     description='Python binding of C++ graph optimization framework g2o.',
     url='https://github.com/uoip/g2opy',
     license='BSD',
+    packages=["g2opy"],
     cmdclass=dict(
         install=CopyLibFile
     ),
